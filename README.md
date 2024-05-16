@@ -10,6 +10,4 @@ open api 주소 https://www.data.go.kr/data/15098931/openapi.do#/tab_layer_prcus
  5. 조회 옵션 필요 할듯
  6. 동물 사진, 위치, 기본정보
  7. 동물 즐겨찾기
- 
-조회는 탭으로 구분
-디자인 패턴은 MVVM 사용하기.
+ 8. ?
