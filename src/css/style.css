@@ -5,6 +5,25 @@
     color: #333;
   }
 
+  /* 드롭다운 메뉴 컨테이너 스타일 */
+  .selector-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* 국가 및 연도 선택 드롭다운 스타일 */
+  .country-selector,
+  .year-selector {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+  }
+
+  /* 캘린더 스타일 */
   .calendar-container {
     max-width: 800px;
     margin: 0 auto;
@@ -23,7 +42,7 @@
 
   .month-section {
     margin-bottom: 40px;
-    background-color: #f0f8ff; /* 연한 파란색 */
+    background-color: #f0f8ff;
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -57,7 +76,7 @@
   }
 
   .holiday-item:hover {
-    background-color: #e6f3ff; /* 연한 하이라이트 색상 */
+    background-color: #e6f3ff;
     border-color: #0077cc;
     transition: background-color 0.2s ease, border-color 0.2s ease;
   }
