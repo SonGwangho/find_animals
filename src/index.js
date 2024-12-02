@@ -27,7 +27,7 @@ const createSelectors = (countries, years, onSelectionChange) => {
   defaultCountryOption.value = "";
   defaultCountryOption.textContent = "Select a country";
   countrySelector.appendChild(defaultCountryOption);
-  
+
   countries.forEach((country) => {
     const countryOption = document.createElement("option");
     countryOption.value = country.code;
@@ -128,7 +128,7 @@ const initializeHolidayApp = () => {
     { code: "KR", name: "South Korea" },
     { code: "JP", name: "Japan" },
     { code: "FR", name: "France" },
-    { code: "ID", name: "indonesia" }
+    { code: "ID", name: "indonesia" },
   ];
 
   // 연도 목록
